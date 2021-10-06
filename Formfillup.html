@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Travelling Site</title>
+        <link rel="stylesheet" type="text/css" href="SS4.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <a href="C:\Users\saket\Documents\My developed site\MainPage1.html" class="btn btn-secondary" role="button" style="margin-left:14px;margin-top:10px"><i class="fa fa-home" aria-hidden="true"> Home</i></a>
+        <br><br>
+        <div class="container" style="background-color:gray">
+            <h3><br>Journey Detail:<br><br></h3>
+            <form action="#">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" class="form-control" placeholder="Username" id="usr"/>
+                </div>
+                <div class="form-group">
+                    <label for="userage">Age</label>
+                    <input type="number" class="form-control" placeholder="Age(Year)" id="usra"/>
+                </div>
+                <div class="form-group">
+                    <label for="userno.">Number of Travellors</label>
+                    <input type="number" class="form-control" placeholder="Number of Passenger" id="usrn"/>
+                </div>
+                <div class="form-group">
+                    <label for="usermail">Email Id</label>
+                    <input type="email" class="form-control" placeholder="Email Id" id="usre"/>
+                </div>
+                <div class="form-group">
+                    <label for="userpass">Password</label>
+                    <input type="password" class="form-control" placeholder=" ******* " id="usrp"/>
+                </div>
+                <div class="form-group">
+                    <label for="userc">Country Living</label>
+                    <select class="form-control" name="Country" id="country">
+                        <option value="choose">choose</option>
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="Russia">Russia</option>
+                        <option value="France">France</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="sex">Sex<br><br></label>
+                    <input type="radio" name="gender" value="male" /> Male
+                    <input type="radio" name="gender" value="female" /> Female
+                    <input type="radio" name="gender" value="other" /> Other 
+                </div>
+                <div class="form-group">
+                    <label for="payment">Advanced Payment</label>
+                    <input type="number" class="form-control" min="5" placeholder="$ X"/>
+                </div>
+                <div class="form-group">
+                    <label for="date">Booking Date</label>
+                    <input type="date" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label for="userdc">Country</label>
+                    <select class="form-control" name="DCountry" id="country">
+                        <option value="choose">choose</option>
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="Russia">Russia</option>
+                        <option value="France">Arab</option>
+                        <option value="Russia">UK</option>
+                        <option value="France">France</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="adate">Arriving Date</label>
+                    <input type="date" class="form-control"/>
+                </div>
+            <button class="btn btn-danger" type="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
